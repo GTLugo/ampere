@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "ampere"
 version = "${version}"
 displayName = "Ampere"
-authors = "Me!"
+authors = "GTLugo"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Create power grids to electrify your world.
 '''
-#logoFile = ""
+logoFile = "logo-large.png"
 
 [[dependencies.ampere]]
 modId = "neoforge"

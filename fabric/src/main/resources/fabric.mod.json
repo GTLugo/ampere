@@ -3,23 +3,23 @@
   "id": "ampere",
   "version": "${version}",
   "name": "Ampere",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Create power grids to electrify your world.",
   "authors": [
-    "Me!"
+    "GTLugo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://ampere.gtlugo.com/",
+    "sources": "https://github.com/GTLugo/ampere"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/ampere/icon.png",
+  "license": "MIT",
+  "icon": "logo-large.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.gtlugo.ampere.fabric.ExampleModFabric"
+      "com.gtlugo.ampere.fabric.AmpereFabric"
     ],
     "client": [
-      "com.gtlugo.ampere.fabric.client.ExampleModFabricClient"
+      "com.gtlugo.ampere.fabric.client.AmpereFabricClient"
     ]
   },
   "mixins": [

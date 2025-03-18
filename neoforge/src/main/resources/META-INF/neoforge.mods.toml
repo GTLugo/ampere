@@ -11,21 +11,21 @@ authors = "${mod_authors}"
 description = '''${mod_description}'''
 logoFile = "logo-large.png"
 
-[[dependencies.ampere]]
+[[dependencies."${mod_id}"]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.ampere]]
+[[dependencies."${mod_id}"]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.ampere]]
+[[dependencies."${mod_id}"]]
 modId = "architectury"
 type = "required"
 versionRange = "[13.0.8,)"

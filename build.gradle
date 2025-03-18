@@ -1,11 +1,18 @@
 plugins {
     id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
+    id 'io.github.pacifistmc.forgix' version '1.2.9'
     id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
 }
 
 architectury {
     minecraft = project.minecraft_version
+}
+
+forgix {
+    group = rootProject.maven_group
+    mergedJarName = "$rootProject.mod_id-$rootProject.mod_version" + ".jar"
+    outputDir = "build/libs/merged"
 }
 
 allprojects {
@@ -20,7 +27,7 @@ subprojects {
 
     base {
         // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
-        archivesName = "$rootProject.archives_name-$project.name"
+        archivesName = "$rootProject.mod_id"
     }
 
     repositories {
@@ -70,4 +77,7 @@ subprojects {
             // retrieving dependencies.
         }
     }
+
+    build.finalizedBy(mergeJars)
+    assemble.finalizedBy(mergeJars)
 }

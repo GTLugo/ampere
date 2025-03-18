@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "ampere",
+  "id": "${mod_id}",
   "version": "${version}",
-  "name": "Ampere",
-  "description": "Create power grids to electrify your world.",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
   "authors": [
-    "GTLugo"
+    "${mod_authors}"
   ],
   "contact": {
     "homepage": "https://ampere.gtlugo.com/",
     "sources": "https://github.com/GTLugo/ampere"
   },
-  "license": "MIT",
+  "license": "${mod_license}",
   "icon": "logo-large.png",
   "environment": "*",
   "entrypoints": {

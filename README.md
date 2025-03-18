@@ -12,7 +12,8 @@ Multipart support for cables will be investigated. Absolutely no promises are be
 
 ## Credits
 
-* **NeoForge** - Thank you to the NeoForged team for developing a great modloader.
+* **Fabric & NeoForge** - Thank you to the Fabric and NeoForged teams for developing great modloaders.
+* **Architectury** - Thank you to the shedaniel for creating and maintaining Architectury.
 * **More Red** - Thanks to Commoble for their work on More Red as a reference for wires.
 * **Project Red** - Thanks to MrTJP for a great reference regarding microblocks. Most of the cable code will be based on their work.
 * **CBMultipart** - Thank you to ChickenBones, MrTJP, and covers1624 for continued work on microblocks.

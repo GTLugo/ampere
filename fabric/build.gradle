@@ -46,6 +46,9 @@ processResources {
             mod_authors: rootProject.mod_authors,
             mod_license: rootProject.mod_license,
             maven_group: rootProject.maven_group,
+            minecraft_version: rootProject.minecraft_version,
+            architectury_api_version: rootProject.architectury_api_version,
+            fabric_loader_version: rootProject.fabric_loader_version,
     ]
     inputs.properties(properties)
     filesMatching('fabric.mod.json') {

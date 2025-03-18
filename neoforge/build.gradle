@@ -49,6 +49,7 @@ processResources {
             mod_description: rootProject.mod_description,
             mod_authors: rootProject.mod_authors,
             mod_license: rootProject.mod_license,
+            maven_group: rootProject.maven_group,
     ]
     inputs.properties(properties)
     filesMatching('META-INF/neoforge.mods.toml') {

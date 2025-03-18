@@ -16,14 +16,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.gtlugo.ampere.fabric.AmpereFabric"
+      "${maven_group}.fabric.${mod_name}Fabric"
     ],
     "client": [
-      "com.gtlugo.ampere.fabric.client.AmpereFabricClient"
+      "${maven_group}.fabric.client.${mod_name}FabricClient"
     ]
   },
   "mixins": [
-    "ampere.mixins.json"
+    "${mod_id}.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.10",

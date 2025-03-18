@@ -33,4 +33,4 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[mixins]]
-config = "ampere.mixins.json"
+config = "${mod_name}.mixins.json"

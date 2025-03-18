@@ -1,0 +1,13 @@
+package com.gtlugo.ampere.neoforge;
+
+import net.neoforged.fml.common.Mod;
+
+import com.gtlugo.ampere.ExampleMod;
+
+@Mod(ExampleMod.MOD_ID)
+public final class ExampleModNeoForge {
+    public ExampleModNeoForge() {
+        // Run our common setup.
+        ExampleMod.init();
+    }
+}
